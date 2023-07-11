@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    width: 1468px;
+    
+    font-family: 'Poppins','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+button{
+    margin: 0;
+    border: hidden;
+    background-color: transparent;
+}
+input{
+    margin: 0;
+}
+ul{
+    padding: 0;
+    font-size: 14px;
+    color: #6e7072;
+}
+select{
+    margin-top: 10px;
+    color: #6e7072;
+    background-color: transparent;
+    border: hidden;
+    width: 100px;
+    
+}
+p{
+    padding: 0;
+    margin: 0;
+}

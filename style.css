@@ -1,0 +1,408 @@
+.main{
+    
+    height: 3500px;
+}
+.bg-image{
+    background-image: url(./photos/bg-1.jpg);
+    width: 1468px;
+    height: 682px;
+    background-size: 100% 100%;
+    animation-name: change;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    filter: brightness(0.8);
+    color: white;
+    
+}
+@keyframes change{
+    0%{
+        background-image: url(./photos/bg-1.jpg);   
+    }
+    25%{
+        background-image: url(./photos/bg-2.jpg);   
+    }
+    50%{
+        background-image: url(./photos/bg-3.jpg);   
+    }
+    75%{
+        background-image: url(./photos/bg-4.jpg);   
+    }
+    100%{
+        background-image: url(./photos/bg-1.jpg);   
+    }
+}
+.header{
+    padding: 20px 15px 0px;
+    width: 1468;
+    height: 130px;   
+    
+}
+.header-logo{
+    float: left;
+
+}
+.header-input{
+    padding-left: 10px;
+    padding-bottom: 5px;
+    float: left;
+    margin-left: 30px;
+    margin-top: -12px;
+
+}
+.input-bar{
+    border-radius: 5px;
+    margin-right: 1px;
+    height: 45px;
+    width: 275px;
+    border: hidden;
+    padding-left: 30px;
+    font-size: 16px;
+    color: rgb(29, 29, 29);
+}
+.search-button{
+    background-color: #E00707;
+    height: 48px;
+    width: 50px;
+    margin-left: -1px;
+    border-radius: 5px;
+    border: hidden;
+    position: relative;
+    top: 10px;
+
+}
+.search-image{
+    height: 33px;
+}
+.right-header{
+    padding-left: 8px;
+    margin-left: 16px;
+    float: left;
+    margin-top: 5px;
+   
+    padding-top: 8px;
+}
+.text-right-header{
+
+    background-color: transparent;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    margin-top: -8px;
+    border-radius: 1px;
+    float: left;
+    
+}
+.text-right-header:hover{
+    background-color: rgba(255,255,255,0.3);
+    color: rgba(255,255,255,1);
+    box-shadow: none;
+}
+.right-most-header{
+    float: left;
+    padding: 10px;
+    margin-left: 25px;
+    margin-top: -5px;
+
+
+}
+.right-most-header-button{
+    background-color: #E00707;
+    height: 48px;
+    color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    font-size: 16px;
+    margin-top: -5px;
+    border-width: 1.9px;
+    padding: 5px 13px;
+}
+#Login-button{
+    background-color: transparent;
+}
+.below-search{
+    margin-left: 117px;
+   
+}
+.dropdown{
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    margin-right: 20px;
+}
+.changin{
+    margin-left: 140px;
+    font-weight: 900;
+    margin-top: 40px;
+}
+.changing-text{
+    
+    font-size: 48px;
+    width: 482px;
+}
+.changing-text ::before {
+    
+    content: "Need to Chill";
+    animation-name: changeText;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    width: 482px;
+    display: block; 
+}
+@keyframes changeText {
+    0%{
+        content:"Need to Chill"
+    }
+    25%{
+        content:"Leave it to pros"
+    }
+    50%{
+        content:"Lock it us this Summer"
+    }
+    75%{
+        content:"Open your door with ease"
+    }
+    100%{
+        content:"Need to Chill"
+    }
+    
+}
+.changing-button{
+    background-color: #E00707;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+}
+.chenging-button::before{
+    content: "HVAC";
+    animation-name: changeButton;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes changeButton {
+    0%{
+        content:"HVAC"
+    }
+    25%{
+        content:"  Handyman"
+    }
+    50%{
+        content:" Locksmith"
+    }
+    75%{
+        content:" Garage door services"
+    }
+    100%{
+        content:" HVAC"
+    }
+    
+}
+.search-image2{
+    height: 30px;
+    position: relative;
+    top: 10px;
+}
+.recently-added{
+    display: flex;
+    color: #2D2E2F;
+    font-size: 28px;
+    font-weight: 900;
+    padding: 56px 0px 10px;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    
+}
+.recently-added-grid{
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+    background-color: #ffffff;
+    height: 500px;
+    justify-content: space-between;
+}
+.recent-activity-grid{
+    color: #2D2E2F;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 400px;
+    padding: 16px 24px;
+    width: 330px;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.profile-upper{
+    display: flex;
+    flex-direction: row;
+}
+.profile-pic-img{
+    border-radius: 40px;
+    margin-right: 3px;
+}
+.user-name{
+    font-size: 16px;
+    position: relative;
+    top: 10px;
+    font-weight: 600;
+    margin-left: 10px;
+    
+}
+.user-do{
+    font-size: 14px;
+    position: relative;
+
+    color:gray;
+    left: 10px;
+}
+.user-where{
+    margin-top: 5px;
+    color: #027A97;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+   
+}
+.user-img{
+    height: 200px;
+
+    width :330px;
+}
+.user-img-img{
+    height: 200px;
+    position: absolute;
+    width :330px;
+    
+   
+}
+.icons{
+    display: inline-block;
+}
+.icon{
+    height: 24px;
+    width: 24px;
+    margin-right: 13px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.show{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: #027A97;
+
+}
+.down-arrow{
+    height: 11px;
+    height: 15px;
+    position: relative;
+    right: 10px;
+    top: 2px;
+}
+.category{
+    font-family: 'Poppins','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+.category-text{
+    display: flex;
+    padding-top: 45px;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 900;
+    color: #2D2E2F;
+    margin-bottom: 30px;
+
+}
+.category-box-row-1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-left: 130px;
+    padding-right: 70px;
+    flex: 1;
+}
+.category-box{
+    margin-top: 35px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    border-style: solid;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: gray;
+
+}
+.category-icon{
+    display: block;
+    height: 40px;
+}
+.category-box-text{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2D2E2F;
+
+}
+.rights{
+    background-color: #f7f7f7;
+    height: 540px;
+    padding-top: 60px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+.heading{
+    font-size: 16px;
+    font-weight: 700;
+}
+.lsit{
+    padding: 0;
+    color: #6e7072;
+
+}
+.tabular{
+    display: flex;
+    flex-direction: row;
+}
+.next{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.language,.country{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+.Copyright{
+    color: #6e7072;
+    font-size: 12px;
+}
+#Login-button:hover{
+    background-color: rgba(255,255,255,0.3);
+    color: rgba(255,255,255,1);
+    box-shadow: none;
+}
+.icon:hover{
+    background-color: rgba(255,255,255,0.3);
+    opacity: 0.2;
+    box-shadow: none;
+}
+.show-more:hover{
+    color: #027A97;
+}
+.category-box:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: hidden;
+}
+.inside:hover{
+    color:black;
+}
